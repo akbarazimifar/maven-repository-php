@@ -44,4 +44,4 @@ allprojects {
 }
 ```
 
-Now turn on your VPN, Done!
+Turn on your VPN, Visit http://127.0.0.1/maven-repository/repository/com/android/tools/build/gradle/4.0.1/gradle-4.0.1.pom, Done!
