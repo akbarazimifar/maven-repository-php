@@ -7,6 +7,7 @@
 [Download the project](https://github.com/hossein-zare/maven-repository/archive/refs/heads/main.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
 Run the server, Open `build.gradle` file.
 
+Note! We assume that `maven-repository` is the folder you extracted the files to.
 ```groovy
 buildscript {
     repositories {
