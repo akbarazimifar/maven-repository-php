@@ -26,9 +26,8 @@ if ($parser->home()) {
 
     if (! $file) {
         http_response_code(404);
-        echo "Not Found";
 
-        die();
+        die("Not Found");
     } else {
         http_response_code(200);
         header("location: " . $file);
