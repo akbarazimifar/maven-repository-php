@@ -8,7 +8,7 @@
 Run the server, Open `build.gradle` file.
 
 Note! We assume that `maven-repository` is the folder you extracted the files to.
-```groovy
+```gradle
 buildscript {
     repositories {
         maven { url 'http://127.0.0.1/maven-repository/repository/' } // +
@@ -23,7 +23,7 @@ buildscript {
 
 Scroll down in the same file.
 
-```groovy
+```gradle
 allprojects {
     repositories {
         mavenLocal()
