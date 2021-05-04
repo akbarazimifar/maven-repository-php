@@ -3,7 +3,7 @@ If you can't get dependencies from the Google repository even with a VPN, most l
 Try downloading http://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.0.1/gradle-4.0.1.pom manually with the same VPN running, if successful, Head over to the [Usage](#usage) section below.
 
 ## Requirements
-+ XAMPP
++ XAMPP (Don't use PHP's built-in web server)
 + PHP 8
 
 ## Usage
