@@ -39,12 +39,12 @@ Try downloading http://dl.google.com/dl/android/maven2/com/android/tools/build/g
     }
     ```
 
-3. Open the `gradle.properties` file.
+3. Open the `gradle.properties` file and add the following code.
     ```properties
     ...
 
-    systemProp.org.gradle.internal.http.connectionTimeout=500000 // +
-    systemProp.org.gradle.internal.http.socketTimeout=500000 // +
+    systemProp.org.gradle.internal.http.connectionTimeout=500000
+    systemProp.org.gradle.internal.http.socketTimeout=500000
     ```
 
 4. Turn on your VPN.
