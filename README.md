@@ -1,5 +1,5 @@
 # Maven Repository
-If you're unable to get dependencies from the Google repository even with a VPN, most likely your IP is blocked.  
+If you can't get dependencies from the Google repository even with a VPN, most likely your access has been blocked.  
 Try to download http://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.0.1/gradle-4.0.1.pom manually with the same VPN running, If it's successful, Head over to the [Usage](#usage) section below.
 
 ## Requirements
