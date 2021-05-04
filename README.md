@@ -6,7 +6,8 @@
 ## Usage
 1. [Download the project](https://github.com/hossein-zare/maven-repository/archive/refs/heads/main.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
 2. Run the server.
-3. Open the `build.gradle` file.  
+3. Open the `build.gradle` file.
+
     Note! We assume that `maven-repository` is the folder you extracted the files to.
 
     ```gradle
