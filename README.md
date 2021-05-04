@@ -31,21 +31,10 @@ Try downloading http://dl.google.com/dl/android/maven2/com/android/tools/build/g
     ```gradle
     allprojects {
         repositories {
-            mavenLocal()
-            maven {
-                url("$rootDir/...")
-            }
-            maven {
-                url("$rootDir/...")
-            }
-            
             maven { url 'http://127.0.0.1/maven-repository/repository/' } // +
 
             google()
             mavenCentral()
-            
-            maven { url 'https://maven.google.com' }
-            maven { url 'https://www.jitpack.io' }
         }
     }
     ```
