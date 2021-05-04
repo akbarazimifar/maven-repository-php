@@ -10,7 +10,6 @@ use Repo\Server;
 $repository = "repository";
 
 // Servers
-// if the value is true, stores the file in the local repository.
 $servers = [
     "https://repo1.maven.org/maven2/" => false,
     "https://dl.google.com/dl/android/maven2/" => true
