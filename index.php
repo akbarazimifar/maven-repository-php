@@ -4,10 +4,13 @@ require "./vendor/autoload.php";
 use Repo\ParseURI;
 use Repo\Server;
 
+// Repository folder
 $repository = "repository";
+
+// Servers
+// if the value is true, stores the file in the local repository.
 $servers = [
     "https://repo1.maven.org/maven2/" => false,
-    "http://maven.adorilabs.com:8081/artifactory/gradle-release/" => false,
     "https://dl.google.com/dl/android/maven2/" => true
 ];
 
@@ -17,19 +20,17 @@ if ($parser->home()) {
     echo "Default Webpage!";
 } else {
     $server = new Server($servers, $parser);
+    $file = $server->search();
 
-    if ($server->cached()) {
-        header("location: ". $server->cachedFile);
+    if (! $file) {
+        http_response_code(404);
+        echo "Not Found";
+
         die();
     } else {
-        $file = $server->search();
+        http_response_code(200);
+        header("location: " . $file);
 
-        if (! $file) {
-            http_response_code(404);
-            echo "Not found";
-        } else {
-            http_response_code(200);
-            header("location: " . $file);
-        }
+        die();
     }
 }
