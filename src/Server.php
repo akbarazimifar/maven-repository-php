@@ -24,7 +24,7 @@ class Server
     {
         //
     }
-    
+
     /**
      * Search for the file.
      * 
@@ -56,7 +56,14 @@ class Server
      */
     private function exists(string $file): bool
     {
-        return @fopen($file, "r") !== false;
+        $res = @fopen($file, "r");
+        
+        if ($res !== false) {
+            fclose($res);
+            return true;
+        }
+
+        return false;
     }
 
     /**
