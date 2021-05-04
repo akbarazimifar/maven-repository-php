@@ -42,6 +42,6 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+```
 
 Now turn on your VPN, Done!
-```
