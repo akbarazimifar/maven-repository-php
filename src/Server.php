@@ -24,19 +24,7 @@ class Server
     {
         //
     }
-
-    /**
-     * Check if the file is cached.
-     * 
-     * @return bool
-     */
-    public function cached(): bool
-    {
-        $this->url = join_string($this->parser->repository, $this->parser->getFilePath());
-
-        return $this->exists($this->url);
-    }
-
+    
     /**
      * Search for the file.
      * 
