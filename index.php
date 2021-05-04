@@ -17,7 +17,7 @@ $servers = [
 $parser = new ParseURI($repository);
 
 if ($parser->home()) {
-    echo "Default Webpage!";
+    die("Default Webpage!");
 } else {
     $server = new Server($servers, $parser);
     $file = $server->search();
