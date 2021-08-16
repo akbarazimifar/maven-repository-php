@@ -1,4 +1,4 @@
-# Maven Repository (PHP)
+# Maven Repository 1.x (PHP)
 Head over to the [Usage](#usage) section below.
 
 ## Requirements
@@ -6,7 +6,7 @@ Head over to the [Usage](#usage) section below.
 + PHP 8
 
 ## Usage
-1. [Download the project](https://github.com/hossein-zare/maven-repository-php/archive/refs/heads/main.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
+1. [Download the project](https://github.com/hossein-zare/maven-repository-php/archive/refs/tags/v1.0.0.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
 2. Run the server.
 3. Open the `build.gradle` file.
 
