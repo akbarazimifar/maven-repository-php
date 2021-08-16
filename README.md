@@ -1,13 +1,12 @@
-# Maven Repository
-If you can't get dependencies from the Google repository even with a VPN, most likely your access has been blocked.  
-Try downloading http://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.0.1/gradle-4.0.1.pom manually with the same VPN running, if successful, Head over to the [Usage](#usage) section below.
+# Maven Repository (PHP)
+Head over to the [Usage](#usage) section below.
 
 ## Requirements
 + XAMPP (Don't use PHP's built-in web server)
 + PHP 8
 
 ## Usage
-1. [Download the project](https://github.com/hossein-zare/maven-repository/archive/refs/heads/main.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
+1. [Download the project](https://github.com/hossein-zare/maven-repository-php/archive/refs/heads/main.zip), Extract files into a folder inside the htdocs folder of XAMPP.  
 2. Run the server.
 3. Open the `build.gradle` file.
 
