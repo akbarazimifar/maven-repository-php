@@ -61,6 +61,7 @@ class ParseURI
      */
     public function getFilePath()
     {
+
         if ($this->filePath !== null)
             return $this->filePath;
     
@@ -68,7 +69,7 @@ class ParseURI
             return $this->filePath = $this->uri;
 
         $length = strlen(join_string($this->directory, $this->repository));
-        $realPath = substr($this->uri, $length);
+        $realPath = substr($this->uri, $length + 1);
 
         $this->filePath = trim($realPath, "/");
 

@@ -38,6 +38,7 @@ class Server
             $url = join_string(trim($server, "/"), $path);
 
             if ($this->exists($url)) {
+
                 if ($storable)
                     return $this->store($url, $path);
 

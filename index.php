@@ -11,7 +11,7 @@ $repository = "repository";
 
 // Servers
 $servers = [
-    "https://repo1.maven.org/maven2/" => false,
+    // "https://repo1.maven.org/maven2/" => false,
     "https://dl.google.com/dl/android/maven2/" => true
 ];
 
