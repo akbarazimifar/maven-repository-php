@@ -46,7 +46,7 @@ Head over to the [Usage](#usage) section below.
     systemProp.org.gradle.internal.http.socketTimeout=500000
     ```
 
-4. Turn on your VPN.
+4. Turn on your VPN. (Optional: Sanctioned Countries)
 5. Visit http://127.0.0.1/maven-repository/repository/com/android/tools/build/gradle/4.0.1/gradle-4.0.1.pom, Done!
 
 ## Add more servers
