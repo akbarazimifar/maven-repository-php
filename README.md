@@ -38,7 +38,7 @@ Head over to the [Usage](#usage) section below.
     }
     ```
 
-3. Open the `gradle.properties` file and add the following code.
+3. Open the `gradle.properties` file and add the following lines.
     ```properties
     ...
 
