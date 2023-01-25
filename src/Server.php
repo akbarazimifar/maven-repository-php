@@ -56,14 +56,9 @@ class Server
      */
     private function exists(string $file): bool
     {
-        $res = @fopen($file, "r");
+        $headers = @get_headers($file);
         
-        if ($res !== false) {
-            fclose($res);
-            return true;
-        }
-
-        return false;
+        return $headers && $headers[0] === 'HTTP/1.1 200 OK';
     }
 
     /**
