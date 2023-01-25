@@ -25,7 +25,7 @@ Head over to the [Usage](#usage) section below.
     }
     ```
 
-    Scroll down in the same file. (Skip this section if there's no allprojects scope in the file)
+    Scroll down in the same file. (Skip this section if there's no `allprojects` scope in the file)
 
     ```gradle
     allprojects {
